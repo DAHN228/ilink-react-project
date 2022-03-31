@@ -1,0 +1,103 @@
+.wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 21fr 1fr 1fr 6fr;
+      grid-template-columns: 21fr 1fr 1fr 6fr;
+  grid-column-gap: 1em;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  margin-bottom: 10%;
+}
+
+.container {
+  background-color: white;
+  padding: 0 5% 5% 5%;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  h1 {
+            font-family: "Factor A";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 68px;
+            line-height: 88px;
+            letter-spacing: -0.0124em;
+            color: #333333;
+            margin: 5% 0 0 0;
+      }
+}
+
+.arrowLeft {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  height: 56px;
+  width: 56px;
+  position: relative;
+}
+.arrowRight {
+  height: 56px;
+  width: 56px;
+  position: relative;
+}
+
+@media (max-width: 320px) {
+  .wrapper {
+   display: flex;
+   margin: 15% 5% 25% 0;
+  }
+  
+  .container {
+    background-color: white;
+    padding: 5% 5% 5% 5%;
+  }
+  
+  .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    h1 {
+              font-family: "Factor A";
+              font-style: normal;
+              font-weight: 500;
+              font-size: 32px;
+              line-height: 42px;
+              letter-spacing: -0.0124em;
+              color: #333333;
+              margin: 0;
+        }
+        margin: 1% 0;
+  }
+  
+  .arrowLeft {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+    height: 56px;
+    width: 56px;
+    position: relative;
+  }
+  .arrowRight {
+    height: 56px;
+    width: 56px;
+    position: relative;
+  }
+}

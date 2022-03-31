@@ -1,0 +1,89 @@
+.container{
+    display:flex;
+    justify-content: flex-start;
+    border-radius: 32px;    
+    position: fixed;
+    top: 85%;
+    right: 10px;
+    width: 440px;
+    height: 130px;
+    background: #F64B3C;
+}
+.icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 35px;
+    margin-right: 20px;
+
+}
+
+.column {
+    display:flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 5% 25% 5% 0 ;
+}
+.header{
+font-family: 'Factor A';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 38px;
+letter-spacing: -0.035em;
+color: #FFFFFF;
+}
+.text{
+    font-family: 'Gilroy';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+color: #FFFFFF;
+}
+
+@media (max-width: 320px) {
+    .container{
+        display:flex;
+        justify-content: flex-start;
+        border-radius: 32px;    
+        position: fixed;
+        top: 85%;
+        right: 10px;
+        width: 290px;
+        height: 130px;
+        background: #F64B3C;
+    }
+    .icons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 35px;
+        margin-right: 20px;
+    
+    }
+    
+    .column {
+        display:flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin: 5% 25% 5% 0 ;
+    }
+    .header{
+    font-family: 'Factor A';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    letter-spacing: -0.035em;
+    color: #FFFFFF;
+    }
+    .text{
+        font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #FFFFFF;
+    }
+}

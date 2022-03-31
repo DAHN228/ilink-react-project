@@ -1,0 +1,45 @@
+.button {
+  background-color: #585cc6;
+  border-radius: 2px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 17px 28px;
+  width: 227px;
+  height: 52px;
+  border-color: transparent;
+  cursor: pointer;
+  &:hover {
+    background: linear-gradient(to right, #696DC8 65%, #585CC6 65% 100%);
+  }
+  &:active {
+    background: #797DDF;
+  }
+  &:disabled {
+    background: #8A8A8A;
+  }
+}
+
+.buttonText {
+  color: white;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0.01em;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+}
+

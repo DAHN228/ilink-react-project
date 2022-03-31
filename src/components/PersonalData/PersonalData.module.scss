@@ -1,0 +1,257 @@
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  align-items: flex-start;
+  margin:  7% 25% 7% 5%;
+}
+.form {
+  background: #ffffff;
+  padding: 2% 3% 2% 3%;
+  border-radius: 2px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  color: #333333;
+}
+
+p {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  color: #333333;
+  span.bold {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+span {
+  font-size: 18px;
+  line-height: 24px;
+}
+span.bold {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.firstRow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+  align-items: center;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+  align-items: center;
+  font-size: 18px;
+  line-height: 24px;
+  p {
+            padding-left: 5%;
+            font-family: "Gilroy";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 24px;
+            letter-spacing: 0.01em;
+            color: #333333;
+          }
+  p:first-child {
+    padding-left: 0;
+  }
+  span {
+  font-size: 18px;
+  line-height: 24px;
+  }
+}
+
+.name {
+  font-family: "Factor A";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 32px;
+  color: #585cc6;
+}
+
+.date {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  color: #8a8a8a;
+}
+
+
+
+.photoContainer {
+  width: 520px;
+  height: 380px;
+}
+
+.photo {
+  width: 520px;
+  height: 380px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 0 -20px;
+     object-position: 0 -20px;
+  border-radius: 2px;
+}
+
+
+@media (max-width: 320px) {
+  .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin:  2%;
+    padding: 10px;
+  }
+  .form {
+    background: #ffffff;
+    padding: 5%;
+    border-radius: 2px;
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+    color: #333333;
+  }
+  
+  p {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+    color: #333333;
+    span.bold {
+      font-weight: bold;
+    }
+  }
+  
+  span.bold {
+    font-weight: bold;
+  }
+  
+  .firstRow {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    flex-wrap: wrap;
+    p {
+              font-family: "Gilroy";
+              font-style: normal;
+              font-weight: 500;
+              font-size: 16px;
+              line-height: 22px;
+              letter-spacing: 0.01em;
+              color: #333333;
+              margin: 5px 0;
+              padding: 0 0 0 5%;
+            }
+    p:first-child {
+      padding-left: 0;
+    }
+    p:last-child {
+      padding-left: 0;
+    }
+  }
+  
+  .name {
+    font-family: "Factor A";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #585cc6;
+  }
+  
+  .date {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+    color: #8a8a8a;
+  }
+  
+  
+  
+  .photoContainer {
+    width: 300px;
+    height: 200px;
+  }
+  
+  .photo {
+    width: 300px;
+    height: 200px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: 0 -20px;
+       object-position: 0 -20px;
+    border-radius: 2px;
+  }
+  .pet {
+    width: 24px;
+    height: 24px;
+    margin: 0 5px 0 0;
+  }
+  .sex {
+    margin-left: 5px;
+  }
+}

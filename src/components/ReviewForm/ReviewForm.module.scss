@@ -1,0 +1,246 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.header {
+  font-family: "Factor A";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -0.0124em;
+  color: #333333;
+  margin-bottom: 3%;
+}
+
+.Form {
+  margin-top: 1%;
+}
+
+.article {
+  font-family: "Factor A";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.0124em;
+  color: #333333;
+  margin: 3% 0;
+}
+
+.block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 1% 0 0 0;
+}
+
+.blockSubmit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  img {
+    margin: 0 8px;
+  }
+}
+
+textarea {
+  margin: 1% 0 0 0;
+  border: 1px solid #e0e0e0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 2px;
+  resize: none;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #8a8a8a;
+  &:active{
+    border: 1px solid #585CC6;
+  }
+  &:error{
+    border: 1px solid #EB5757;
+  }
+  &:disabled{
+    color: #E0E0E0;
+    border: 1px solid #E0E0E0;
+  }
+}
+
+.moderation {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #8a8a8a;
+}
+
+input {
+  width: 400px;
+  border: 1px solid #e0e0e0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 2px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #8a8a8a;
+  margin-right: 15px;
+  &:active{
+    border: 1px solid #585CC6;
+  }
+  &:error{
+    border: 1px solid #EB5757;
+  }
+  &:disabled{
+    color: #E0E0E0;
+    border: 1px solid #E0E0E0;
+  }
+  &::placeholder {
+    color: #333333;;
+  }
+
+}
+
+@media (max-width: 320px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
+    margin: 5%;
+
+  }
+  .header {
+    font-family: "Factor A";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.0124em;
+    color: #333333;
+    margin-bottom: 10px;
+  }
+  
+  .Form {
+    margin-top: 1%;
+  }
+  
+  .article {
+    font-family: "Factor A";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.0124em;
+    color: #333333;
+    margin-top: 10px;
+    margin: 1% 0 0 0;
+    
+  }
+  
+  .block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 7% 0;
+  }
+  
+  .blockSubmit {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+    justify-content: space-between;
+    flex-direction: column;
+    img {
+      margin: 0 8px 0 0;
+    }
+  }
+  .row {
+    display: flex;
+    justify-content: space-between;
+  }
+  textarea {
+    width: 250px;
+    height: 100px;
+    margin: 1% 0;
+    border: 1px solid #e0e0e0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-radius: 2px;
+    resize: none;
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #8a8a8a;
+    margin: 1% 0 0 0;
+    &:active{
+      border: 1px solid #585CC6;
+    }
+    &:error{
+      border: 1px solid #EB5757;
+    }
+    &:disabled{
+      color: #E0E0E0;
+      border: 1px solid #E0E0E0;
+    }
+  }
+  
+  .moderation {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: #8a8a8a;
+  }
+  
+  input {
+    width: 250px;
+    height: 40px;
+    border: 1px solid #e0e0e0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-radius: 2px;
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+line-height: 22px;
+    color: #8a8a8a;
+    margin-right: 15px;
+    &:active{
+      border: 1px solid #585CC6;
+    }
+    &:error{
+      border: 1px solid #EB5757;
+    }
+    &:disabled{
+      color: #E0E0E0;
+      border: 1px solid #E0E0E0;
+    }
+    &::placeholder {
+      color: #333333;;
+    }
+  }
+}
